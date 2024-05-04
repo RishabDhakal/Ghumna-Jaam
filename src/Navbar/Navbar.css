@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 14vh;
+    font-family: sans-serif;
+    height: 10vh;
+    background: linear-gradient(#4b76d9, rgb(177, 177, 196));
+    overflow: hidden;
+}
+
+.loader {
+    font-weight: bold;
+    object-fit: fill;
+    font-family: monospace;
+    font-size: 3vw;
+    color: rgb(45, 49, 52);
+  }
+
+  .loader .g{
+    color: rgb(204, 48, 84);
+  }
+  .loader span{
+    color: rgb(204, 48, 84);  }
+  
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    background: transparent;
+
+}
+
+
+.mrt{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    background: transparent;
+
+}
+
+.login_button{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.mrt {
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(35, 29, 29);
+    letter-spacing: 0.2vw;
+    font-size: 1.2vw;
+    transition: all 0.5s ease;
+    font-size: 1.7vw;
+  }
+  a{
+    text-decoration: none;
+  }
+  .mrt:hover {
+    letter-spacing: 3px;
+    background: linear-gradient(#c36f6f, rgb(57, 57, 125));
+    color: rgb(35, 29, 29);
+    box-shadow: linear-gradient(#c36f6f, rgb(57, 57, 125));;
+  }
+  
+  .mrt:active {
+    letter-spacing: 3px;
+    background: linear-gradient(#c36f6f, rgb(57, 57, 125));
+    color: rgb(35, 29, 29);
+    box-shadow: linear-gradient(#c36f6f, rgb(57, 57, 125));;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
